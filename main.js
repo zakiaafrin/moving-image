@@ -18,7 +18,7 @@ function clickButton() {
         table[past_i][past_j] = " &nbsp; ";
         now_i += Math.floor(Math.random() * 2);
         now_j += Math.floor(Math.random() * 2);
-        table[now_i][now_j] = `<img src = "pic.png" style = "width:10vw; height:28vh;"></img>`;
+        table[now_i][now_j] = `<img src = "pic.png" style = "width: 13vw; height: 34vh;"></img>`;
         past_i = now_i;
         past_j = now_j;
         clickButton();
