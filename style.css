@@ -43,9 +43,11 @@ button {
 
 #matrix {
     background-color: #c13efa4a;
-    font-size: 6px;
-    width: 40vw;
-    height: 70vh;
+    background-image: url('back.jpg');
+    background-size: cover;
+    font-size: 8px;
+    width: 55vw;
+    height: 75vh;
     text-align: center;
     box-shadow: 10px 10px 8px #686666;
 }
